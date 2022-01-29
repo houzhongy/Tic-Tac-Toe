@@ -17,10 +17,6 @@ check if user won: checking rows, columns and diagonals
 toggle between users upon successful moves
 """
 
-
-from typing import Tuple
-
-
 def print_board(board):
     for row in board:
         for slot in row:
